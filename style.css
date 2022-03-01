@@ -222,7 +222,7 @@ hr {
   display: flex;
   padding: 0.2rem 2rem;
   height: 3rem;
-  margin: 2rem 0;
+  margin: 2rem 0.5rem;
 }
 .part p {
   display: flex;
