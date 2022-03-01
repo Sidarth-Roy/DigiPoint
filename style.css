@@ -2,11 +2,11 @@
 :root {
   --tagline-color: #0cebeb;
   --hero-bgcolor: linear-gradient(132.12deg, #11998e 0%, #38ef7d 97.56%);
-  --background-color:#110b35;
-  --menu-text-color:#29ffc6;
-  --button:#29ffc6;
+  --background-color: #110b35;
+  --menu-text-color: #29ffc6;
+  --button: #29ffc6;
   --text-color: #ffffff;
-  }
+}
 
 * {
   font-family: "Raleway", sans-serif;
@@ -30,7 +30,7 @@ body {
 }
 #tagline {
   margin: 0;
-  color:var(--tagline-color);
+  color: var(--tagline-color);
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
@@ -47,7 +47,6 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
@@ -67,13 +66,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .topnav .logo img{
+  .topnav .logo img {
     margin-left: 21%;
   }
   .logo {
     padding: 3rem 2rem 0 2rem;
-    }
-  .topnav{
+  }
+  .topnav {
     justify-content: center;
   }
 }
@@ -124,7 +123,7 @@ body {
 
 .join {
   border-radius: 50px 10px;
-  background-color: var(--background-color);
+  background-color: #110b3594;
   display: flex;
   padding: 0.2rem 2rem;
   height: 4rem;
@@ -148,7 +147,7 @@ body {
 .button {
   width: 115px;
   height: 2rem;
-  background: var(--button);
+  background: #29ffc62e;
   text-align: center;
   border-radius: 50px 10px;
   font-weight: bold;
@@ -159,7 +158,7 @@ body {
     width: auto;
     text-align: center;
   }
-  .item-1 h1{
+  .item-1 h1 {
     font-size: 2.5rem;
     margin: 0 auto 1rem auto;
   }
@@ -205,7 +204,6 @@ hr {
   line-height: 24px;
 }
 
-
 .footer a.active {
   background-color: #04aa6d;
   color: var(--text-color);
@@ -250,7 +248,7 @@ hr {
 #address {
   color: #6ca99980;
 }
-.last-line{
+.last-line {
   color: var(--text-color);
   margin: auto;
 }
